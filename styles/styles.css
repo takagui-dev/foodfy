@@ -1,8 +1,4 @@
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
+/* --------------------- HEADER --------------------- */
 .header {
   display: flex;
   align-items: center;
@@ -20,4 +16,48 @@
 
 .links__item:not(:first-child) {
   margin-left: 2rem;
+}
+
+/* --------------------- MAIN --------------------- */
+.main {
+  background-color: var(--background_second);
+  border-radius: 30px;
+  height: 366px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main__content {
+  width: 316px;
+}
+
+.main__content-title {
+  font-weight: bold;
+  font-size: 2rem;
+
+  color: var(--text-05);
+
+  margin-bottom: 0.5rem;
+}
+
+.main__content-text {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+
+  color: var(--text-00);
+  opacity: 70%;
+}
+
+.main__image {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.main__image img {
+  width: 13.5rem;
+  height: auto;
 }
