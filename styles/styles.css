@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+  height: 5rem;
+}
+
+.logo {
+  margin-right: 15%;
+}
+
+.links {
+  display: flex;
+}
+
+.links__item:not(:first-child) {
+  margin-left: 2rem;
+}

@@ -1,0 +1,28 @@
+:root {
+  --background_primary: '#FFFFFF';
+  --background_second: '#FBDFDB';
+  --background_third: '#EEEEEE';
+
+  --background_inactive: '#666666'
+
+  --text-00: '#000000';
+  --text-05: '#111111';
+  --text-20: '#444444';
+  --text-35: '#777777';
+  --text-45: '#999999';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-05);
+}
