@@ -1,0 +1,22 @@
+.about {
+  margin-top: 0.5rem;
+  padding-bottom: 6.875rem;
+}
+
+.about__foodfy-title {
+  font-size: 1.5rem;
+  color: var(--text-05);
+}
+
+.about__title {
+  font-size: 1.25rem;
+  color: var(--text-05);
+}
+
+.about__text {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+
+  color: var(--text-20);
+  margin: 1rem 0;
+}

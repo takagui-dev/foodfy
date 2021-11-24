@@ -36,6 +36,46 @@ a {
 }
 
 .container {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
+}
+
+/* --------------------- HEADER --------------------- */
+.header {
+  display: flex;
+  align-items: center;
+
+  height: 5rem;
+}
+
+.logo {
+  margin-right: 15%;
+}
+
+.links {
+  display: flex;
+}
+
+.links__item:not(:first-child) {
+  margin-left: 2rem;
+}
+
+/* --------------------- FOOTER --------------------- */
+.footer {
+  height: 3.875rem;
+  width: 100%;
+
+  background-color: var(--background_third);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer__copyright {
+  font-size: 0.875rem;
+  color: var(--text-45);
 }
