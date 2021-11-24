@@ -7,6 +7,10 @@
   gap: 1.5rem;
 }
 
+.recipe:hover {
+  cursor: pointer;
+}
+
 .recipe__image {
   width: 100%;
   height: auto;
