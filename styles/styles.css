@@ -65,6 +65,7 @@
 /* --------------------- FAVORITES --------------------- */
 .favorites {
   margin-top: 3rem;
+  padding-bottom: 6.875rem;
 }
 
 .favorites__title {
@@ -105,4 +106,24 @@
   font-weight: 400;
 
   color: var(--text-35);
+}
+
+/* --------------------- FOOTER --------------------- */
+.footer {
+  height: 3.875rem;
+  width: 100%;
+
+  background-color: var(--background_third);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer__copyright {
+  font-size: 0.875rem;
+  color: var(--text-45);
 }
